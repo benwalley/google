@@ -7,8 +7,8 @@ body{
 .navbar{
 	padding-top:10px;
 	width:100%;
-	height:120px;
-	background:#f5f5f5;
+	min-height:110px;
+	background:#fafafa;
 	margin:0;
 	border-bottom:1px solid #d3d3d3;
 }
@@ -22,19 +22,68 @@ body{
 	font-size:1.2em;
 	padding-top:10px;
 	padding-bottom:10px;
+	padding-left:10px;
 	width:100%;
+	width:50vw;
 	
 }
 
+.inp:focus{
+	outline:none;
+	/*box-shadow:0px 1px 10px #c7c7c7;*/
+}
+
+
 .inpDiv{
 	box-shadow:0px 1px 2px #c7c7c7;
-	width:50vw;
+	/*width:50vw;*/
 	margin-top:10px;
 	float:left;
 	/*height:20px;*/
 }
 
+
+
 .inpDiv:hover{
-		box-shadow:0px 1px 14px #c7c7c7;
+		
+	    box-shadow:0px 1px 10px #c7c7c7;
+
+}
+
+.navLinks{
+	float:left;
+	width:50%;
+}
+
+.navLink{
+	padding-left:15px;
+	padding-right:15px;
+	float:left;
+	padding-top:25px;
+	font-size:.84em;
+	text-decoration:none;
+	color:#777;
+	font-family:arial,sans-serif;
+	
+}
+
+.Left{
+	float:left;
+}
+
+.Right{
+	float:right;
+}
+
+.navLink:hover{
+	color:black;
+}
+
+.selected{
+	border-bottom:3px solid #7171ff;
+	color:#7171ff;
+	font-weight:bold;
+	padding-bottom:12px;
+	
 
 }

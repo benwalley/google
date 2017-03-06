@@ -24,7 +24,7 @@ body{
 	padding-bottom:10px;
 	padding-left:10px;
 	width:100%;
-	width:50vw;
+	width:47vw;
 	
 }
 
@@ -46,13 +46,18 @@ body{
 
 .inpDiv:hover{
 		
-	    box-shadow:0px 1px 10px #c7c7c7;
+	box-shadow:0px 1px 10px #c7c7c7;
 
+}
+
+.inpDiv:focus{
+	/*box-shadow:0px 1px 10px #c7c7c7;*/
+	color:red;
 }
 
 .navLinks{
 	float:left;
-	width:50%;
+	width:47%;
 }
 
 .navLink{
@@ -85,5 +90,47 @@ body{
 	font-weight:bold;
 	padding-bottom:12px;
 	
+
+}
+
+.resultNum{
+	font-family:arial,sans-serif;
+	color:#777;
+	font-size:.8em;
+	padding-left:12vw;
+	padding-top:10px;
+	float:left;
+}
+
+.result{
+	width:47%;
+	margin-left:12vw;
+	margin-top:50px;
+	font-family:arial,sans-serif;
+	font-size:.8em;
+}
+
+.resultTitle{
+	color:#1a0dab;
+	width:100%;
+	float:left;
+	font-size:1.41em;
+	padding-bottom:3px;
+}
+
+.resultLink{
+	color:#006621;
+	width:100%;
+	float:left;
+	padding-bottom:4px;
+	font-size:1.058em;
+}
+
+.resultText{
+	width:100%;
+	float:left;
+	color:#545454;
+	font-size:1.052em;
+	line-height:1.4;
 
 }

@@ -11,6 +11,7 @@ body{
 	background:#fafafa;
 	margin:0;
 	border-bottom:1px solid #d3d3d3;
+	overflow:hidden;
 }
 
 .logo{
@@ -20,22 +21,27 @@ body{
 
 .inp{
 	font-size:1.2em;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:10px;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:12px;
 	width:100%;
 	width:47vw;
+	color:#222;
+	border:1px solid #c2c2c2;
+	border-radius:3px;
+	overflow:hidden;
+	font:16px arial,sans-serif;
 	
 }
 
 .inp:focus{
 	outline:none;
-	/*box-shadow:0px 1px 10px #c7c7c7;*/
+	/*box-shadow:1px 1px 3px #c7c7c7;*/
 }
 
 
 .inpDiv{
-	box-shadow:0px 1px 2px #c7c7c7;
+	box-shadow:1px 1px 2px #c7c7c7;
 	/*width:50vw;*/
 	margin-top:10px;
 	float:left;
@@ -99,15 +105,22 @@ body{
 	font-size:.8em;
 	padding-left:12vw;
 	padding-top:10px;
+	width:100vw;
 	float:left;
+	display:none;
+	overflow:hidden;
 }
 
 .result{
 	width:47%;
 	margin-left:12vw;
-	margin-top:50px;
+	margin-top:31px;
 	font-family:arial,sans-serif;
 	font-size:.8em;
+	float:left;
+	display:none;
+	overflow:hidden;
+	cursor:pointer;
 }
 
 .resultTitle{
@@ -133,4 +146,26 @@ body{
 	font-size:1.052em;
 	line-height:1.4;
 
+}
+
+.bottom{
+	width:100vw;
+	height:75px;
+	border-top:2px solid #e2e2e2;
+	background:#f4f4f4;
+	float:left;
+	margin-top:30px;
+	display:none;
+	padding-left:12vw;
+	overflow:hidden;
+}
+
+.bottomLink{
+	float:left;
+	color:grey;
+	padding-right:30px;
+	font-family:arial,sans-serif;
+	font-size:.8em;
+	padding-top:47px;
+	overflow:hidden;
 }
